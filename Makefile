@@ -1,5 +1,5 @@
 COLOR := $(shell git rev-parse HEAD | cut -c 1-6)
-DOCKER_IMAGE ?= bdimcheff/rainbow-deploys
+DOCKER_IMAGE ?= kwesi/rainbow-deploys
 
 .PHONY: build
 build: rainbow-deploys
